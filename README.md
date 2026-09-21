@@ -11,6 +11,7 @@ La idea es usarlo como:
 ## Estructura
 
 - `clase-01`: primeros pasos con ReactJS, entorno con Vite y primer componente
+- `clase-02`: JSX a fondo, props, children, patrón contenedor/presentacional y tipos de export
 
 ## Nota
 
