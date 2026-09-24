@@ -14,6 +14,7 @@ La idea es usarlo como:
 - `clase-02`: JSX a fondo, props, children, patrón contenedor/presentacional y tipos de export
 - `clase-03`: layout en React, estructura de carpetas, CSS Global vs CSS Modules
 - `clase-04`: flujo de datos en 3 niveles, eventos y hook useState
+- `clase-05`: useEffect, fetch a APIs locales y manejo de estados de carga y error
 
 ## Nota
 

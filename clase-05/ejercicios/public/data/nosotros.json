@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana García",
+    "puesto": "CEO",
+    "email": "ana.garcia@talentotech.com",
+    "foto": "/images/avatar1.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Carlos López",
+    "puesto": "CTO",
+    "email": "carlos.lopez@talentotech.com",
+    "foto": "/images/avatar2.png"
+  },
+  {
+    "id": 3,
+    "nombre": "María Fernández",
+    "puesto": "Diseñadora UX",
+    "email": "maria.fernandez@talentotech.com",
+    "foto": "/images/avatar3.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Lucas Martínez",
+    "puesto": "Desarrollador Frontend",
+    "email": "lucas.martinez@talentotech.com",
+    "foto": "/images/avatar4.png"
+  }
+]
