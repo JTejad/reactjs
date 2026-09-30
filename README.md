@@ -15,6 +15,7 @@ La idea es usarlo como:
 - `clase-03`: layout en React, estructura de carpetas, CSS Global vs CSS Modules
 - `clase-04`: flujo de datos en 3 niveles, eventos y hook useState
 - `clase-05`: useEffect, fetch a APIs locales y manejo de estados de carga y error
+- `clase-06`: formularios controlados, eventos onChange/onSubmit y subida de imágenes a Imgbb
 
 ## Nota
 
