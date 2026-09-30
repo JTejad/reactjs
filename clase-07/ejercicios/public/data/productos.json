@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cámara Instantánea",
+    "precio": 85000,
+    "stock": 22,
+    "imagen": "/images/camara.jpg",
+    "descripcion": "Cámara instantánea compacta ideal para retratos y viajes. Imprime fotos al instante en formato crédito."
+  },
+  {
+    "id": 2,
+    "nombre": "Monitor Curvo",
+    "precio": 110000,
+    "stock": 2,
+    "imagen": "/images/monitor.jpg",
+    "descripcion": "Monitor curvo 27\" con resolución QHD y panel VA. Perfecto para gaming y edición de contenido."
+  },
+  {
+    "id": 3,
+    "nombre": "Teclado Mecánico",
+    "precio": 15000,
+    "stock": 50,
+    "imagen": "/images/teclado.jpg",
+    "descripcion": "Teclado mecánico TKL con switches Cherry MX Red. Retroiluminación RGB y construcción compacta."
+  },
+  {
+    "id": 4,
+    "nombre": "Notebook Pro",
+    "precio": 120000,
+    "stock": 8,
+    "imagen": "/images/notebook.jpg",
+    "descripcion": "Notebook de 15\" con procesador i7, 16GB RAM y SSD 512GB. Ideal para trabajo y estudio."
+  },
+  {
+    "id": 5,
+    "nombre": "Mouse Inalámbrico",
+    "precio": 5000,
+    "stock": 35,
+    "imagen": "/images/mouse.jpg",
+    "descripcion": "Mouse ergonómico inalámbrico con batería recargable. Conexión USB-C y 3200 DPI."
+  }
+]
