@@ -16,6 +16,8 @@ La idea es usarlo como:
 - `clase-04`: flujo de datos en 3 niveles, eventos y hook useState
 - `clase-05`: useEffect, fetch a APIs locales y manejo de estados de carga y error
 - `clase-06`: formularios controlados, eventos onChange/onSubmit y subida de imágenes a Imgbb
+- `clase-07`: React Router, SPAs, rutas estáticas y dinámicas, Outlet, Link y useParams
+- `clase-08`: Context API, prop drilling, createContext, useContext, CartProvider y carrito global
 
 ## Nota
 
