@@ -1,0 +1,138 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.banner {
+  background: linear-gradient(135deg, #0a2540 0%, #1a4a7a 100%);
+  border-radius: 6px;
+  padding: 2.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.bannerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 500px;
+}
+
+.bannerSub {
+  color: #a0b8d8;
+  font-size: 0.85rem;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.bannerTitulo {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.bannerDesc {
+  color: #ccd6f0;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.bannerBtn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.65rem 1.75rem;
+  background: #3483fa;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  width: fit-content;
+  transition: background 0.2s;
+}
+
+.bannerBtn:hover {
+  background: #2968c8;
+  text-decoration: none;
+}
+
+.bannerIllustration {
+  font-size: 5rem;
+  flex-shrink: 0;
+}
+
+.section {
+  background: #fff;
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+}
+
+.sectionTitle {
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.cats {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 0.75rem;
+}
+
+.catCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.15s;
+  gap: 0.5rem;
+}
+
+.catCard:hover {
+  background: #f5f5f5;
+  text-decoration: none;
+}
+
+.catEmoji {
+  font-size: 2rem;
+}
+
+.catNombre {
+  color: #3483fa;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.promos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.promo {
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  font-size: 0.875rem;
+  color: #333;
+}
+
+.promo strong {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+}
+
+.promo p {
+  margin: 0;
+  color: #666;
+}

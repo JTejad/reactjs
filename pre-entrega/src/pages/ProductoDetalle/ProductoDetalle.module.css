@@ -1,0 +1,284 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.breadcrumb {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0;
+}
+
+.breadcrumb a {
+  color: #3483fa;
+}
+
+.card {
+  background: #fff;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr 280px;
+  gap: 0;
+}
+
+@media (max-width: 900px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+}
+
+.galeria {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #f0f0f0;
+}
+
+.imagen {
+  max-width: 280px;
+  max-height: 280px;
+  object-fit: contain;
+}
+
+.info {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-right: 1px solid #f0f0f0;
+}
+
+.vendidos {
+  color: #999;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.nombre {
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.estrellas {
+  color: #3483fa;
+  font-size: 0.8rem;
+  letter-spacing: -1px;
+}
+
+.ratingNum {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.precioAnterior {
+  color: #999;
+  font-size: 0.85rem;
+  text-decoration: line-through;
+  margin: 0;
+}
+
+.precioRow {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.precio {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 300;
+}
+
+.descuento {
+  color: #00a650;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cuotas {
+  color: #00a650;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.envioGratis {
+  color: #00a650;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.sep {
+  border: none;
+  border-top: 1px solid #f0f0f0;
+  margin: 0.5rem 0;
+}
+
+.stockLabel {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0;
+}
+
+.cantidadRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.cantLabel {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.cantControls {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.cantBtn {
+  background: #f5f5f5;
+  border: none;
+  width: 32px;
+  height: 32px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #3483fa;
+  font-weight: 600;
+}
+
+.cantBtn:hover {
+  background: #e8f0fe;
+}
+
+.cantNum {
+  padding: 0 0.75rem;
+  font-size: 0.95rem;
+  color: #333;
+  min-width: 32px;
+  text-align: center;
+}
+
+.acciones {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.btnAgregar {
+  padding: 0.75rem;
+  background: #fff;
+  color: #3483fa;
+  border: 1px solid #3483fa;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btnAgregar:hover:not(:disabled) {
+  background: #e8f0fe;
+}
+
+.btnAgregar:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btnComprar {
+  padding: 0.75rem;
+  background: #3483fa;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btnComprar:hover {
+  background: #2968c8;
+}
+
+.lateral {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.vendedorBox {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.vendedorTitle {
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0;
+}
+
+.vendedorNombre {
+  color: #3483fa;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.vendedorBadge {
+  background: #ffe600;
+  color: #333;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  width: fit-content;
+  margin: 0;
+}
+
+.vendedorInfo {
+  font-size: 0.78rem;
+  color: #666;
+  margin: 0;
+}
+
+.descripcionBox {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.descripcionBox h3 {
+  font-size: 0.95rem;
+  color: #333;
+  margin: 0 0 0.5rem;
+}
+
+.descripcionBox p {
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
