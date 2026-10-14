@@ -18,6 +18,7 @@ La idea es usarlo como:
 - `clase-06`: formularios controlados, eventos onChange/onSubmit y subida de imágenes a Imgbb
 - `clase-07`: React Router, SPAs, rutas estáticas y dinámicas, Outlet, Link y useParams
 - `clase-08`: Context API, prop drilling, createContext, useContext, CartProvider y carrito global
+- `clase-09`: lógica del carrito (contador global, eliminar producto, renderizado condicional) y Firebase/Firestore
 
 ## Nota
 
