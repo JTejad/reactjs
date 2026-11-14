@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cámara Instantánea",
+    "precio": 45000,
+    "stock": 10,
+    "imagen": "https://via.placeholder.com/300x200?text=Camara",
+    "descripcion": "Cámara instantánea retro, perfecta para inmortalizar momentos."
+  },
+  {
+    "id": 2,
+    "nombre": "Monitor Curvo",
+    "precio": 120000,
+    "stock": 5,
+    "imagen": "https://via.placeholder.com/300x200?text=Monitor",
+    "descripcion": "Monitor curvo 27 pulgadas, resolución 2K, ideal para gaming y trabajo."
+  },
+  {
+    "id": 3,
+    "nombre": "Teclado Mecánico",
+    "precio": 35000,
+    "stock": 20,
+    "imagen": "https://via.placeholder.com/300x200?text=Teclado",
+    "descripcion": "Teclado mecánico con switches azules, retroiluminación RGB."
+  },
+  {
+    "id": 4,
+    "nombre": "Notebook Pro",
+    "precio": 850000,
+    "stock": 3,
+    "imagen": "https://via.placeholder.com/300x200?text=Notebook",
+    "descripcion": "Notebook de alto rendimiento con procesador de última generación."
+  },
+  {
+    "id": 5,
+    "nombre": "Mouse Inalámbrico",
+    "precio": 18000,
+    "stock": 15,
+    "imagen": "https://via.placeholder.com/300x200?text=Mouse",
+    "descripcion": "Mouse inalámbrico ergonómico con autonomía de 12 meses."
+  }
+]
