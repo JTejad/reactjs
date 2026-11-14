@@ -20,6 +20,10 @@ La idea es usarlo como:
 - `clase-08`: Context API, prop drilling, createContext, useContext, CartProvider y carrito global
 - `clase-09`: lógica del carrito (contador global, eliminar producto, renderizado condicional) y Firebase/Firestore
 - `clase-10`: CRUD con Firestore — detalle con getDoc, alta con addDoc, baja con deleteDoc y gestión de cupones
+- `clase-11`: Update con updateDoc (productoAEditar, modo edición) y validación de formularios
+- `clase-12`: Firebase Authentication, AuthContext, login/registro, roles y rutas protegidas
+- `clase-13`: React-Bootstrap, styled-components, React Icons, SEO con React Helmet y búsqueda global
+- `clase-14`: diseño mobile-first, UX/accesibilidad, Spinner y paginación con Firestore
 
 ## Nota
 
